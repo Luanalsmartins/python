@@ -1,4 +1,4 @@
-n = s = c = 0
+s = c = 0
 
 while True:
     n = int(input("Digite um número, o programa acaba quando vocẽ digitar 999: "))

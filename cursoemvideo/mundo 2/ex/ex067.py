@@ -1,4 +1,3 @@
-n = 0
 c = tabuada = 1
 
 while True:
@@ -7,8 +6,7 @@ while True:
     if n < 0:
         break
     for c in range (1, 11):
-        tabuada = n*c
-        print(f'{n} x {c} = {tabuada}')
+        print(f'{n} x {c} = {n*c}')
         c += 1
     print('-'*50)
 print('Programa tabuada encerrado. Volte sempre!')
